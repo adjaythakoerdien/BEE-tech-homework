@@ -1,0 +1,15 @@
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/op1
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/op1.deps.json
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/op1.runtimeconfig.json
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/op1.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/ref/op1.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/bin/Debug/net6.0/op1.pdb
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.csproj.AssemblyReference.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.AssemblyInfoInputs.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.AssemblyInfo.cs
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.csproj.CoreCompileInputs.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/ref/op1.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.pdb
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/Debug/net6.0/op1.genruntimeconfig.cache
