@@ -1,4 +1,4 @@
-﻿// FUNCTION FOR WRITING N OF TINMES
+﻿// FUNCTION FOR WRITING N NEW LINES
 void writeSomeLines(int n)
 {
     for (int i = 0;i <= n;i++)
@@ -7,31 +7,63 @@ void writeSomeLines(int n)
     }
 }
 
-
-void PlayGuessingGame()
+// ASK FOR THE PLAYER'S NAME
+string askName()
 {
+    Console.WriteLine("What is your name?");
+    string name = Console.ReadLine();
+    return name;
+}
+
+// EXIT GAME
+void exitMenu(string name)
+{
+    writeSomeLines(100);
+    Console.WriteLine("Thank you for your time. Hope to see you soon, " + name + ".");
+    Console.WriteLine("Have a nice day!");
+
+}
+
+
+//SHOW THE MENU
+void showMenu(string name)
+{
+    writeSomeLines(100);
+    Console.WriteLine("Welcome, " + name + "!");
+    Console.WriteLine("\nWhat do you want to do today?");
+    Console.WriteLine("1) Play guessing game");
+    Console.WriteLine("3) Exit");
+    //string input = Console.ReadLine;
+    switch (Console.ReadLine())
+    {
+        case "1": playGuessingGame(name); break;
+        case "3": exitMenu(name); break;
+
+    }
+}
+
+
+void playGuessingGame(string name)
+{
+    // CALCULATE AGE
     int calculateAge(int date)
     {
         int age = 2022 - date;
         return age;
     }
 
+    // START GAME UNTIL BREAK
     while (true)
     {
-        // ASK NAME
-        Console.WriteLine("What is your name?");
-        string naam = Console.ReadLine();
-
         writeSomeLines(100);
-        Console.WriteLine("Welcome, " + naam + "!");
-        Console.WriteLine("\nLet's play a game...");
+        
         writeSomeLines(4);
         Console.WriteLine("I am going to guess your age...");
 
 
         // ASK DATE OF BIRTH
         
-        Console.WriteLine("What is your date of birth, " + naam + "?");
+        Console.WriteLine("What is your date of birth, " + name + "?");
         string input = Console.ReadLine();
         bool succes = int.TryParse(input, out int date);
 
@@ -88,31 +120,30 @@ void PlayGuessingGame()
             }
         }
 
-
         int lft = calculateAge(date);
 
+        // SHOW AGE GUESS
         writeSomeLines(100);
-
         Console.WriteLine("Your age is.......");
         Console.WriteLine(lft);
         Console.WriteLine("\nTadaaa, I won the game!");
 
+        // PRESS KEY TO CONTINUE
         Console.WriteLine("\n\nPress any key to continue the game!");
         Console.ReadKey();
 
+        // PLAY AGAIN OR EXIT TO MENU
         writeSomeLines(3);
-        Console.WriteLine("Do you wan't to play again? (press 'n' to stop or play any key to continue..)");
+        Console.WriteLine("Do you want to play again? (press 'n' to stop or play any key to continue..)");
         string playAgain = Console.ReadLine();
-
-        Console.WriteLine("");
-        Console.WriteLine("");
-        Console.WriteLine("");
 
         if (playAgain == "n")
         {
-            break;
+            showMenu(name);
         }
     }
 }
 
-PlayGuessingGame();
+// OPEN THE CONSOLE APPLICATION
+string name = askName();
+showMenu(name);
