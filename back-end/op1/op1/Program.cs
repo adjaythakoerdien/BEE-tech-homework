@@ -189,13 +189,34 @@ int askColumns()
 void displayCheckerBoard(int rows, int cols)
 {
     writeSomeLines(100);
+    string lastChar = "O";
+
     for (int i = 0; i < rows; i++)
     {
-
+        //evenOrUneven = i % 2;
         string rowString = "";
+
+        if ((i % 2) == 0)
+        {
+            lastChar = "X";
+        } else
+        {
+            lastChar = "O";
+        }
+
+        
         for (int j = 0; j < cols; j++)
         {
+            if (lastChar == "O")
+            {
+                lastChar = "X";
                 rowString += "X";
+            } else
+            {
+                lastChar = "O";
+                rowString += "O";
+            }
+                
             
         }
         Console.WriteLine(rowString);
