@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 main {
@@ -76,5 +76,18 @@ h1 {
     section #art_1 {
         columns: 2;
         column-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+        #image_section img {
+            max-width: 450px;
+        }
+}
+
+
+@media only screen and (max-width: 450px) {
+    #image_section img {
+        max-width: 300px;
     }
 }

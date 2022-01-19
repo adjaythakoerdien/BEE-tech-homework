@@ -49,15 +49,16 @@ void showMenu(string name, bool playActive)
     }
 }
 
+// CALCULATE AGE FUNCTION
+int calculateAge(int date)
+{
+    int age = 2022 - date;
+    return age;
+}
+
 // PLAY GUESSING GAME
 void playGuessingGame(string name, bool playActive)
 {
-    // CALCULATE AGE FUNCTION
-    int calculateAge(int date)
-    {
-        int age = 2022 - date;
-        return age;
-    }
 
     // START GAME UNTIL BREAK
     while (playActive)
@@ -173,7 +174,7 @@ int askRows()
 // ASK FOR N COLUMNS
 int askColumns()
 {
-    //int rows = 0;
+    
     writeSomeLines(100);
     Console.WriteLine("How many columns do you want to display? Pick a number BETWEEN 0 and 11.");
     bool succes = int.TryParse(Console.ReadLine(), out int cols);
@@ -193,7 +194,6 @@ void displayCheckerBoard(int rows, int cols)
 
     for (int i = 0; i < rows; i++)
     {
-        //evenOrUneven = i % 2;
         string rowString = "";
 
         if ((i % 2) == 0)
@@ -203,7 +203,6 @@ void displayCheckerBoard(int rows, int cols)
         {
             lastChar = "O";
         }
-
         
         for (int j = 0; j < cols; j++)
         {
@@ -217,7 +216,6 @@ void displayCheckerBoard(int rows, int cols)
                 rowString += "O";
             }
                 
-            
         }
         Console.WriteLine(rowString);
     }
