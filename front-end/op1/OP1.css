@@ -20,6 +20,16 @@ header {
     /* padding: 20px; */
 }
 
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+button:hover {
+    background-color: #AAFFAA;
+}
+
 main {
     padding: 0px 20px;
 }
