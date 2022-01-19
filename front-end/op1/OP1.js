@@ -29,7 +29,6 @@ nav_3.addEventListener('mouseenter', function(e) {
 })
 
 // NAV 4
-
 document.querySelector('#nav_4').onclick = function () {
     const subject = prompt('Type a word of a picture you want to see..');
     document.getElementById('image').src = 'https://source.unsplash.com/random/600x600/?' + subject;
