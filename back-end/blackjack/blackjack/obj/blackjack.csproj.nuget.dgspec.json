@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/op1.csproj": {}
+    "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/blackjack.csproj": {}
   },
   "projects": {
-    "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/op1.csproj": {
+    "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/blackjack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/op1.csproj",
-        "projectName": "op1",
-        "projectPath": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/op1.csproj",
+        "projectUniqueName": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/blackjack.csproj",
+        "projectName": "blackjack",
+        "projectPath": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/blackjack.csproj",
         "packagesPath": "/Users/adjaythakoerdien/.nuget/packages/",
-        "outputPath": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/op1/op1/obj/",
+        "outputPath": "/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/adjaythakoerdien/.nuget/NuGet/NuGet.Config"

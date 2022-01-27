@@ -1,0 +1,15 @@
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/blackjack
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/blackjack.deps.json
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/blackjack.runtimeconfig.json
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/blackjack.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/ref/blackjack.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/bin/Debug/net6.0/blackjack.pdb
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.csproj.AssemblyReference.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.AssemblyInfoInputs.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.AssemblyInfo.cs
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.csproj.CoreCompileInputs.cache
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/ref/blackjack.dll
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.pdb
+/Users/adjaythakoerdien/BEE/studie/tech_homework/back-end/blackjack/blackjack/obj/Debug/net6.0/blackjack.genruntimeconfig.cache

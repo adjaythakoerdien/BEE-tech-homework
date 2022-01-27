@@ -223,11 +223,10 @@ void displayCheckerBoard(int rows, int cols)
 
 void playCheckerboardGame(string name, bool playActive)
 {
-    //int rows = askRows();
-    //int cols = askColumns();
+
     while (playActive)
     {
-        Console.WriteLine("Hi, " + name + "! We are going to play the checkerboard game..");
+        Console.WriteLine($"Hi, {name}! We are going to play the checkerboard game..");
         int rows = askRows();
         int cols = askColumns();
 
@@ -240,7 +239,8 @@ void playCheckerboardGame(string name, bool playActive)
         // PLAY AGAIN OR EXIT TO MENU
         writeSomeLines(3);
         Console.WriteLine("Do you want to play again? (press 'n' to stop or play any key to continue..)");
-        string playAgain = Console.ReadLine();
+        string playAgain = Console.ReadLine()??"";
+
 
         if (playAgain == "n")
         {
@@ -249,7 +249,6 @@ void playCheckerboardGame(string name, bool playActive)
         }
     }
 }
-
 
 // OPEN THE CONSOLE APPLICATION
 string name = askName();

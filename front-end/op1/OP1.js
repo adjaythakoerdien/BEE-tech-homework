@@ -11,16 +11,13 @@ function bgChange() {
 const nav_1 = document.querySelector('#nav_1');
 nav_1.addEventListener('click', event => event.target.style.backgroundColor = bgChange());
 
-
 // NAV 2 WELCOME MESSAGE
 document.querySelector('#nav_2').onclick = function () {
     const welcome = document.querySelector('#welcome');
     const name = prompt('What is your name?');
     alert(`Hi, ${name}! Nice to meet you`);
     welcome.textContent = `Welcome ${name}`;
-
 }
-
 
 // NAV 3 HTML BG CHANGE
 const nav_3 = document.querySelector('#nav_3');
